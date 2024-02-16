@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Application
+                <span class="sub_heading">(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+
+                    <div class="form_control">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+                    </div>
+                    <div class="form_control">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" placeholder="Enter Last Name">
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form_control">
+                        <label for="jobrole">Job Role:</label>
+                        <select name="jobrole" id="jobrole">
+                            <option value="">Select Job Role</option>
+                            <option value="sde">SDE</option>
+                            <option value="dataanalyst">Data Analyst</option>
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        <label for="add">Address:</label>
+                        <textarea name="add" id="add" cols="50" rows="2" placeholder="Enter Address"></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="city">City:</label>
+                        <input type="city" name="city" id="city" placeholder="Enter city">
+                    </div>
+                    <div class="form_control">
+                        <label for="pincode">Pincode:</label>
+                        <input type="number" name="pincode" id="pincode" placeholder="Enter pincode">
+                    </div>
+                    <div class="form_control">
+                        <label for="date">Date:</label>
+                        <input type="date" name="date" id="date" placeholder="Enter date">
+                    </div>
+                    <div class="form_control">
+                        <label for="cv">Upload your CV:</label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+
+                </div>
+                <div class="button_container">
+                    <button>Apply now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
